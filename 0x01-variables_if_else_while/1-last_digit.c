@@ -16,7 +16,7 @@ int main(void)
 	/* my code */
 	int last_dgt = n[-1];
 
-	if (n[-1] > 5)
+	if ($last_dgt > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_dgt);
 	}
@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d  and is 0\n", n, last_dgt);
 	}
-	else (($last_dgt < 6) != 0)
+	else (($last_dgt < 6) != 0);
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_dgt);
 	}
