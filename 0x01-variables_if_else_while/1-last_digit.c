@@ -14,17 +14,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* my code */
-	int last_dgt = $n[-1];
+	int last_dgt = n[-1];
 
-	if ($last_dgt > 5)
+	if (last_dgt > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_dgt);
 	}
-	if ($last_dgt == 0)
+	if (last_dgt == 0)
 	{
 		printf("Last digit of %d is %d  and is 0\n", n, last_dgt);
 	}
-	else (($last_dgt < 6) != 0);
+	else ((last_dgt < 6) != 0);
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_dgt);
 	}
