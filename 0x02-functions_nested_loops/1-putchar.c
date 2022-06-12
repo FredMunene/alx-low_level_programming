@@ -11,14 +11,13 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char ch[9] = "_putchar";
+	int m;
+
+	for (m = 0; m < 9; m++)
+	{
+_putchar(ch[m]);
+		_putchar('\n');
+	}
 	return (0);
 }
