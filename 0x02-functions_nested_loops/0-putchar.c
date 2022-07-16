@@ -4,11 +4,9 @@
 /**
  * main - entry point
  *
- * prints -putchar followed by a new line
- *
- * returns: always 0 (Success)
+ * Prints _putchar followed by a new line
+ * Return: always 0 (Success)
  */
-
 int main(void)
 {
 	_putchar('_');
