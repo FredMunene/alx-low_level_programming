@@ -2,13 +2,10 @@
 #include "main.h"
 
 /**
- * main - my entry point
- *
- *Description: program that prints _putchar 
- *
- *Return: 0 
+ *main - my entry point
+ *Description: program that prints _putchar
+ *Return:0
  */
-
 int main(void)
 {
 	_putchar("_");
